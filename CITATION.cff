@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived package and the associated article."
+title: "mst-direct: Matching for Structural Transport — reproducibility package"
+version: "2.0.0"
+type: software
+license: MIT
+authors:
+  - family-names: "Schmitz"
+    given-names: "Tcharlies Bachmann"
+    affiliation: "[to be confirmed]"
+doi: "10.5281/zenodo.XXXXXXX"
+date-released: "2026-11-27"
+keywords:
+  - geostatistics
+  - multivariate simulation
+  - optimal transport
+  - Sinkhorn
+  - conditional simulation
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "Matching for Structural Transport: preserving complete multivariate tuples in conditional geostatistical simulation"
+  authors:
+    - family-names: "Schmitz"
+      given-names: "Tcharlies Bachmann"
+  journal: "Computers & Geosciences"
+  status: submitted
+  year: 2026
+references:
+  - type: article
+    title: "Direct Multivariate Simulation - A stepwise conditional transformation for multivariate geostatistical simulation"
+    journal: "Computers & Geosciences"
+    volume: 147
+    year: 2021
+    doi: "10.1016/j.cageo.2020.104659"
+    authors:
+      - family-names: "de Figueiredo"
+        given-names: "Leandro P."
+      - family-names: "Schmitz"
+        given-names: "Tcharlies"
+      - family-names: "Lunelli"
+        given-names: "Rafael"
+      - family-names: "Roisenberg"
+        given-names: "Mauro"
+      - family-names: "de Freitas"
+        given-names: "Daniel Santana"
+      - family-names: "Grana"
+        given-names: "Dario"

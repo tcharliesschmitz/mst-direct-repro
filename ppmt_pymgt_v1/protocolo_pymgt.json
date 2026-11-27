@@ -1,0 +1,23 @@
+{
+  "source": "pymgt 0.1.1, ZIP fornecido pelo usuário; 33 arquivos preservados",
+  "fit": {
+    "maxiter": 100,
+    "optimiser": "original",
+    "target": 0.003916179291282447,
+    "seed": 9101
+  },
+  "stopping_calibration": "Quantil 95% do máximo índice Friedman em 50 amostras iid Gaussianas 4096x6, mesmo otimizador; limiar de não rejeição com cauda superior de 5%.",
+  "numeric_adapter": {
+    "tails": "Secantes do 1% extremo; forward/inverse mutuamente inversos; interpolações interiores com as tabelas originais",
+    "precision": "float64, mesma aritmética interior da biblioteca",
+    "vendor_changed": false
+  },
+  "gates": {
+    "roundtrip_absolute_tolerance": 1e-06,
+    "fit_agreement_absolute_tolerance": 1e-06,
+    "repeatability_tolerance": 1e-10
+  },
+  "historical_preservation": true,
+  "common_data_sha256": "b843244b440e3384ad8a14ad09512fe1976024a0e5a06d8afc32fb574ad55b99",
+  "revisions_before_benchmark": "Caudas originais NaN/Inf; target .001/100 passos falhou inversão; mediana/80 passos e precisão estendida não preservaram concordância interior; critério de não rejeição 95% Gaussiano e float64 original passaram. Sem consulta a métricas de previsão/distribuição."
+}

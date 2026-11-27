@@ -1,0 +1,51 @@
+{
+  "limites_variaveis": [
+    [
+      -4.665153506748991,
+      4.952227516527302
+    ],
+    [
+      -2.0336180688956715,
+      2.2110994724041113
+    ],
+    [
+      -3.8233579454640108,
+      6.448348022255183
+    ],
+    [
+      -1.7798963178192615,
+      1.754070551151219
+    ],
+    [
+      -7.2329277302444765,
+      8.796145906246467
+    ],
+    [
+      -1.3097064580545035,
+      22.943373684578393
+    ]
+  ],
+  "dimensoes_png_fixas": true,
+  "mesmos_bins_histogramas": true,
+  "indices_exibidos": "primeira referencia e primeira realizacao",
+  "ordem_testes": [
+    "Dados, verdade independente e protocolo",
+    "Crossplots e distribui\u00e7\u00e3o conjunta",
+    "Marginais: histogramas, KS e Wasserstein",
+    "Depend\u00eancia multivariada e histogramas bivariados",
+    "Variogramas diretos \u2014 incondicional",
+    "Variogramas cruzados \u2014 incondicional",
+    "Campos condicionais: verdade, realiza\u00e7\u00e3o e mediana",
+    "Reprodu\u00e7\u00e3o dos pontos condicionantes",
+    "Variogramas diretos \u2014 condicional",
+    "Variogramas cruzados \u2014 condicional",
+    "Previs\u00e3o pontual nos n\u00f3s livres",
+    "Calibra\u00e7\u00e3o, largura e CRPS nos n\u00f3s livres",
+    "Desempenho por dist\u00e2ncia aos condicionantes",
+    "Extremos, conectividade e caudas conjuntas",
+    "Continuidade direcional",
+    "Tempo e sensibilidade ao tamanho da grade",
+    "Escala original: incondicional 200\u00d7200",
+    "Escala original: condicional 100\u00d7100, 200 pontos"
+  ]
+}

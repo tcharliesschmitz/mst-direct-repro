@@ -1,0 +1,8 @@
+# artefatos locais (não versionar)
+*.zip
+*.zip.sha256
+PASSO_A_PASSO.md
+outputs/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

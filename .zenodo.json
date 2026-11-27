@@ -1,0 +1,19 @@
+{
+  "upload_type": "software",
+  "title": "mst-direct: Matching for Structural Transport — reproducibility package",
+  "version": "2.0.0",
+  "creators": [
+    {"name": "Schmitz, Tcharlies Bachmann", "affiliation": "[to be confirmed]"}
+  ],
+  "description": "<p>Source code, experiment scripts, frozen synthetic data, seeds and reference results for the article <em>Matching for Structural Transport: preserving complete multivariate tuples in conditional geostatistical simulation</em> (submitted to Computers &amp; Geosciences). Matching for Structural Transport (MST) simulates multivariate fields by assigning complete multivariate tuples to the positions of a conditioned Gaussian reference field (FFT-MA with cokriging) through entropy-regularized optimal transport (Sinkhorn) followed by a bijective rounding, so the empirical joint distribution of the pool is preserved exactly and complete conditioning data are honoured.</p><p>The package regenerates the synthetic benchmark (MST, Gaussian copula with FFT-MA, sequential Gaussian simulation and PPMT/pymgt), the Jura cadmium validation (nested spatial validation, historical split and reference-field ablation), the interval-calibration experiment and the figures. Run <code>python run_all.py quick</code> for a 3-minute check. The Jura data are downloaded from the R package gstat by <code>data/fetch_jura.py</code>. Code: MIT; data and results: CC BY 4.0.</p>",
+  "keywords": ["geostatistics", "multivariate geostatistical simulation", "optimal transport", "Sinkhorn algorithm", "conditional simulation", "non-linear dependence", "Jura dataset", "reproducibility"],
+  "license": "MIT",
+  "access_right": "open",
+  "language": "eng",
+  "related_identifiers": [
+    {"identifier": "arXiv:2603.18036", "relation": "isDocumentedBy", "scheme": "arxiv", "resource_type": "publication-preprint"},
+    {"identifier": "arXiv:2606.07578", "relation": "isDocumentedBy", "scheme": "arxiv", "resource_type": "publication-preprint"},
+    {"identifier": "10.1016/j.cageo.2020.104659", "relation": "references", "scheme": "doi", "resource_type": "publication-article"}
+  ],
+  "notes": "Associated article submitted to Computers & Geosciences; update related_identifiers with 'isSupplementTo' and the article DOI after publication."
+}

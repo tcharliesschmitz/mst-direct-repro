@@ -1,0 +1,5 @@
+cenario,metodo,MAE_Cd,RMSE_Cd,desvio_MC_MAE
+Validação espacial aninhada: 259,MST padrão,0.5237123552123553,0.7642526739331041,
+Validação espacial aninhada: 259,MST seleção interna,0.5171911196911197,0.7542780543040035,
+100 alvos históricos: média de 10 sementes,MST padrão,0.40599349999999995,0.5692405190092468,0.004757312529149202
+100 alvos históricos: média de 10 sementes,MST seleção interna,0.3981655,0.5644759943611775,0.006068022948209721
